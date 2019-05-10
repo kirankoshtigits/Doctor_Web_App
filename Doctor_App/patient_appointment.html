@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+ <meta name="author" content="Bishworaj Poudel">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+<body class="body">
+	<header class="mainheader">
+		<img src="images/logo.png">
+	<content id="search">
+		<form>
+			<input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+		</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="patientindex.html">Home</a></li>
+			<li><a href="patient_appointment.html">Patient Appointment</a></li>
+			<li><a href="patient_cancel_oppintment.html">Cancel Appointment</a></li>
+			<li><a href="DataBase/doctor_list1.php">Doctor List</a></li>
+			<li><a href="DataBase/patient_list1.php">Patient List</a></li>
+			<li><a href="index.html">Logout</a></li>
+		</ul> 
+	</nav>
+	
+  <title>Patient Appointment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+  </body>
+  <title>Patient Appointment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+  <title>Patient Appointment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+</head>
+<body>
+ 
+<div class="container">
+  <div class="panel-group">
+	<h2>Patient Appointment</h2>
+    <div class="panel panel-primary">
+      <div class="panel-heading">Patient Appointment</div>
+		    <div class="panel-body">
+			  <form method="post" action="DataBase/patient_appointment.php">
+				  <div class="col-xs-4">
+						<label for="ex2"> Patient Id:</label>
+						<input name="patient_id" id="name" class="form-control" type="text"placeholder="Patient Id" required>
+				  </div>
+				  
+				   <div class="col-xs-4">
+					<label for="ex1">Diesease:</label>
+					<input name="diesease" id="pid1" class="form-control" pattern="[A-Za-z]{2,30}" type="text" placeholder="Diesease" required>
+				  </div>
+				  
+				  <div class="col-xs-4">
+					<label for="ex1">Time:</label>
+					<input name="time" id="pid1" class="form-control" pattern="[1-9]{1,30}"  type="text" placeholder="Check Time" required>
+				  </div><br><br><br><br>
+				  
+				  <div class="col-md-4">
+					<div class="thumbnail">
+						<img src="image/image6.jpeg" alt="Fjords" style="width:100%">
+					</div>
+				  </div>
+				  
+				   <div class="col-xs-4">
+					<label for="ex1">Doctor Name:</label>
+					<input name="dname" id="pid1" class="form-control" pattern="[A-Za-z]{3,30}"  type="text" placeholder="Doctor Name" required>
+				  </div>
+				 
+				  <div class="col-xs-4">
+					<label for="ex2">Date:</label>
+					<input name="date" id="mno1" class="form-control" type="date" placeholder="Date" required>
+				  </div><br><br><br><br>
+				  
+				  
+				 <div class="col-xs-4">
+					
+				  </div><br><br><br><br>
+				  
+				  <div class="col-xs-3">
+					<input name="submit_btn1" id="Sbutton1" type="submit" value="Book" class="btn btn-primary">
+				  </div>
+				  <div class="col-xs-3">
+					<input name="Rbutton" id="Sbutton1" type="reset" class="btn btn-primary">
+				  </div>
+			  </form>
+		  </div>
+        </div>
+      </div>
+    </div>	
+ </div>
+
+</body>
+</html>

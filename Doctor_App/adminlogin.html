@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+ <meta name="author" content="Bishworaj Poudel">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+<body class="body">
+	<header class="mainheader">
+		<img src="images/logo.png">
+	<content id="search">
+		<form>
+			<input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+		</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="patient_reg.html">Patient Register</a></li>
+			<li><a href="patient_login.html">Patient Login</a></li>
+			<li><a href="adminlogin.html">Admin Login</a></li>
+			<li><a href="doctor_login.html">Doctor Login</a></li>
+
+		</ul> 
+	</nav>
+	<style>
+		#formpage
+		{
+			width:70%;
+			margin-left:17%;
+		}
+		#title
+		{
+			margin-left:0%;
+		}
+	</style>
+  <title>Admin Login </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+  </body>
+</head>
+<body>
+ 
+<div class="container">
+  <div class="panel-group">
+	<h2 id="title">Admin Login</h2>
+    <div class="panel panel-primary" id="formpage">
+      <div class="panel-heading">Admin Login</div>
+		    <div class="panel-body">
+			  <form method="post" action="DataBase/admin_login.php">
+			     <div class="col-md-6">
+					<div class="thumbnail">
+						<img src="image/image3.jpeg" alt="Fjords" style="width:100%">
+					</div>
+				  </div>
+				  <div class="col-xs-6">
+						<label for="ex2">Admin Username</label>
+						<input name="username" id="name" class="form-control" type="text"
+						placeholder="Admin Username" required>
+				  </div><br><br><br><br><br>
+				  <div class="col-xs-6">
+					<label for="ex2">Admin Password</label>
+					<input name="password" id="pid1" class="form-control" type="password" placeholder="Admin Password" required>
+				  </div><br><br><br><br><br>
+				  <div class="col-xs-6">
+				  </div>
+				  <div class="col-xs-3">
+					<input name="submit_btn1" id="Sbutton1" type="submit" class="btn btn-primary">
+				  </div>
+				  <div class="col-xs-3">
+					<input name="Rbutton" id="Sbutton1" type="reset" class="btn btn-primary">
+				  </div>
+			  </form>
+		  </div>
+        </div>
+      </div>
+    </div>	
+ </div>
+
+</body>
+</html>
